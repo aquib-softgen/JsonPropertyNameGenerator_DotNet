@@ -1,3 +1,5 @@
+import sys
+
 def parse(text: str):
     new_text = ""
 
@@ -74,6 +76,6 @@ def generate_spaces(n):
 
 
 if __name__ == "__main__":
-    text = open("test.cs", "r").read()
+    text = "".join(line for line in sys.stdin)
     print(parse(text))
 
