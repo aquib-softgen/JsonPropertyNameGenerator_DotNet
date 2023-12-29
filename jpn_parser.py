@@ -1,7 +1,3 @@
-#   Author: Shaikh Aquib (softgen-aquib@gmail.com, aquib-shaikh@outlook.com)
-#   Script to generate JsonPropertyName() fields for each and every field in the C# class
-
-
 def parse(text: str):
     new_text = ""
 
